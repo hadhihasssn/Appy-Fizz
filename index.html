@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARLE AGRO | Appy Fizz</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="/script.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.parleagro.com/dist/img/favicon.ico">
+</head>
+<body>
+
+    <header>
+      <div class="top d-flex align-items-center justify-content-between">
+        <div class="l-icon p-4 ">
+              <img  src="./logo.png" alt="logo" />
+        </div>
+        <div class="r-links  d-flex align-items-center">
+          <ul class="link-ul d-flex align-items-center" id="link-ul">
+            <li>
+              <span class="top-links">Home</span>
+            </li>
+            <li>
+              <div class="dropdown">
+              <span class="top-links dropdown-toggle" >Company</span>
+              <div class="dropdown-content">
+                <p>About Us</p>
+                <p>people</p>
+              </div>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <span class="top-links dropdown-toggle" >Brand</span>
+                <div class="dropdown-content ">
+                  <div class="d-flex">
+                    <div class="s-t">
+                      <p>Appy</p>
+                      <p>Appy fizz</p>
+                      <p>B Apply </p>
+                      <p>Bailley</p>
+                      <p>Bailley Soda</p>                   
+                    </div>
+                    <div class="s-r">
+                      <p>Dhishoom</p>
+                      <p>Frio</p>
+                      <p>Frooti</p>
+                      <p>Bombay 99</p>
+                      <p>Smoodh</p> 
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </li>
+            <li>
+              <div class="dropdown">
+                <span class="top-links dropdown-toggle" >Business</span>
+                <div class="dropdown-content bs-se">
+                  <p>Preforms</p>
+                  <p>linternational Business</p>
+                </div>
+                </div>
+            </li>
+            <li><span class="top-links">News Room</span></li>
+            <li>
+              <div class="dropdown">
+                <span class="top-links dropdown-toggle" >Sustainability</span>
+                <div class="dropdown-content bs-se">
+                  <p>Our Responsibility</p>
+                  <p>PJC Foundation</p>
+                </div>
+                </div>
+            </li>
+            <li><span class="top-links">Careers</span></li>
+            <li><span class="top-links">Contact Us</span></li>
+          </ul>
+          <img  class="three-bar bar-three" id="three-bar" onclick="show()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAKFJREFUWEftVsENgCAQa2dyARdwDCdwAedw2TP+wVACCZeUdzl6Pa4psejhorxgYupkrJgVUxVQ8fn+WEQcADa1UxVP8i7dqSoWEQ+AU31IxZMsckhJ7ALwjXPqIblLo5zKpqF4vq1saGoqJJ9i9jH7mLgS9jFRsCo8n12M6ry3zl+6cB6T0sXKQdF5TBpl7zaNumcfU5W0YlZMVUDFL/vHXleQMCdypV6+AAAAAElFTkSuQmCC"/>        
+          <img class="icon-x" id="X-icon" onclick="hiddenNav()" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAAXNSR0IArs4c6QAAAd1JREFUWEftlr1qFVEURtf3AhIhta2FID5AJCI+gBZCCCHYqBEsfQSxsbQwmsKgIlYKPkAwJJ0WNgG1tDCNoCSWCZ8cmIHDMHfu2SdXSDFT3tlnn3XX/mHEKX10SrkYwaKVGY2NxqIGovFjj/1XY7bngTVJDyMX2V4Gvkv6XHquuJQN1C5wHtiQdKfkEttLwBvgEFiU9KXkXATsHXAjS7ou6d7QJbZXgFdZzD5wTtLRNLgIWCpja6zNuwHcleTuRZmp9o6/wFVJn6ZBpffFYCm4U842/0vgVg5nexXYzPIfANdKocJgJXAToIp7q/23IWPtoQFzW8CLjqkwVJWxKXB5+6TyVUGdCCwr60fgQqehfzeNXrQa+oahqpR5ItsPgMed5B+A633TWjKRszB2G3g2YbrfAsu1cNXGbK8BTzMDf4AfwMXst9fAag1cFZjtZOp5BpB66jLwE9jp9FyVuTDYJChJe81AnAXS2riUgYfhQmA9UL+AKy1UtkrOANsngSsGs30feJJZSFALkr71TZrtSXArko6nTWcELO+rQagBc++BmzMFa/onwT0aMtXzldGa+woU2araY7bnJKXVUPw0ZT2MrI3iUhZTzChwBIuKHI2NxqIGovFjj0WN/QPai7gnIlZEGgAAAABJRU5ErkJggg=="/>
+        </div>
+      </div>
+    </header>
+
+   <section style="position: absolute; width: 100%;">
+    <div class="drop-top drop-top-2 " id="drop-top-2">
+      <div class="r-links ">
+        <ul class="link-ul ul-2 ">
+          <li>
+            <span class="top-links">Home</span>
+          </li>
+          <li>
+            <div class="dropdown">
+            <span class="top-links dropdown-toggle" >Company</span>
+            <div class="dropdown-content">
+              <p>About Us</p>
+              <p>people</p>
+            </div>
+            </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <span class="top-links dropdown-toggle" >Brand</span>
+              <div class="dropdown-content ">
+                <div class="d-flex">
+                  <div class="s-t">
+                    <p>Appy</p>
+                    <p>Appy fizz</p>
+                    <p>B Apply </p>
+                    <p>Bailley</p>
+                    <p>Bailley Soda</p>                   
+                  </div>
+                  <div class="s-r">
+                    <p>Dhishoom</p>
+                    <p>Frio</p>
+                    <p>Frooti</p>
+                    <p>Bombay 99</p>
+                    <p>Smoodh</p> 
+                  </div>
+                </div>
+              </div>
+              </div>
+          </li>
+          <li>
+            <div class="dropdown">
+              <span class="top-links dropdown-toggle" >Business</span>
+              <div class="dropdown-content bs-se">
+                <p>Preforms</p>
+                <p>linternational Business</p>
+              </div>
+              </div>
+          </li>
+          <li><span class="top-links">News Room</span></li>
+          <li>
+            <div class="dropdown">
+              <span class="top-links dropdown-toggle" >Sustainability</span>
+              <div class="dropdown-content bs-se">
+                <p>Our Responsibility</p>
+                <p>PJC Foundation</p>
+              </div>
+              </div>
+          </li>
+          <li><span class="top-links">Careers</span></li>
+          <li><span class="top-links">Contact Us</span></li>
+        </ul>
+    </div>
+   </section>
+                                <!------------------section 2-->
+   <section>
+    <div class="section-image">
+      <img  src="/050251APPY-FIZZ_Digital_2023-Kriti-1.jpg" alt="">
+    </div>
+   </section>
+                                                            <!--section 3-->
+   <section class="container-fluid">
+    <div class="section-3 d-flex row">
+      <div class="wrapper col-12 col-md-12 col-lg-6 new-appy-fizz d-flex align-items-center justify-content-center">
+        <div class="rotate text-center ">
+          <img class="rotate-img" src="/r-img.png" alt="scroll" id="reload">
+          <span>New Appy <br> Fizz</span>
+        </div>
+      </div>  
+     
+      <div class="fizz-text col-12 col-md-12 col-lg-6  d-flex flex-column align-items-center justify-content-center">
+        <p> Launched in 2005, Appy Fizz was <br> India’s first sparkling apple juice. Its <br> unique packaging and taste made it <br> feel like the champagne of fruit drinks. <br> Today, Appy Fizz is one of the largest <br> beverage brands in India. It has a crisp <br> apple flavour that is balanced with just <br> the right amount of fizz, giving you a <br> cool drink that can transport you to the <br> realm of a refreshing experience.</p>
+        <p>Its bold & fashionable design <br> emphasizes its strong confident <br> personality that reflects the modern <br> expressive & ambitious Indian youth of <br> today.</p>
+        <p>The Appy Fizz experience can be <br> enjoyed in multiple ways. It is available <br> in PET bottles of 125ml, 175ml, 250ml, <br> 600ml, 1ltr and 1.5ltr & 250ml cans.</p>
+        <p>
+          <a href=""><img src="/Facebook-icon.png" alt=""></a>
+          <a href=""><img src="/inatagram.png" alt=""></a>
+          <a href=""><img src="/twitter.png" alt=""></a>
+          <a href=""><img src="/youtube.png" alt=""></a>
+        </p> 
+      </div>
+    </div>
+   </section>
+
+
+   <section >
+    <div class="bottle-section">
+      <img src="/053402APPY-FIZZ_Social-Media_Range_2023.jpg" alt="">
+    </div>
+   </section>
+    
+
+
+   <section class="container">
+    <div>
+       <div class="uid footer  d-flex align-items-center justify-content-around row" >
+        <div class="one col-12 col-sm-12 col-lg-4">
+          <p>
+            Corporate Head Officebr <br>
+Parle Agro Pvt. Ltd.,<br>
+off Western Express Highway,<br>
+Sahar-Chakala Road, Parsiwada,<br>
+Andheri (E), Mumbai 400 099. <br>
+
+2019, Parle Agro© All rights reserved. <br>
+          </p>
+        </div>
+        <div class="d-flex flex-column two col-12 col-sm-12 col-lg-4">
+          <p>
+            If you have a particular query, please select the concerned <br> department:
+          </p>
+          <a href="">Exports: exports@parleagro.com</a>
+          <a href="">Preforms: preforms@parleagro.com</a>
+          <a href="">Consumer Cell: consumercell@parleagro.com</a>
+          <a href="">Media Queries: corpcomm@parleagro.com</a>
+        </div>
+        <div class="three col-12 col-sm-12 col-lg-4">
+          <span>Our Policy: <a href="">Vigil Mechanism Policy</a></span><br>  
+          <a href="">Annual Return</a>
+          <p>Get in touch:</p>
+          <p>T: 022 - 6734 8000</p>
+          <span>E: <a href="">info@parleagro.com</a> </span>
+          <p>Follow us : Instagram, Twitter and Linkedin</p>
+          <p>
+            <img src="youtube.png" alt="">
+           <img src="twitter.png" alt="">
+           <img src="inatagram.png" alt="">
+           <img src="Facebook-icon.png" alt=""> 
+          </p>
+       </div>
+    </div>
+   </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
